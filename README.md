@@ -1,25 +1,23 @@
-<h1 align="center">Upload de Arquivos</h1>
+<h1 align="center">File Upload</h1>
 <p align="center">
-    <a href="#sobre">Sobre |</a>
-    <a href="#tecnologias">Tecnologias |</a>
-    <a href="#Uso">Uso</a>
+    <a href="#about">About |</a>
+    <a href="#technologies">Technologies |</a>
+    <a href="#usage">Usage</a>
 </p>
 
-## Sobre
-Aplicação de upload de arquivos de imagem que permite enviar imagens de até 2MB, sendo as informações das imagens armazenadas no banco de dados MongoDB,  e a imagem, propriamente dita, no servidor AWS, da Amazon.
+## About
+Image upload application with drag and drop. It accepts images of up to 2 MB and shows the upload progress of each file. The back end stores the image metadata in MongoDB and the image files on Amazon S3.
+
 ![0](https://user-images.githubusercontent.com/76854209/189490451-4cf945e8-3d54-446c-bd6f-38e891ebaf7b.jpg)
 ![1](https://user-images.githubusercontent.com/76854209/189490450-c722f770-e838-4a3b-aa7d-239a163b57f8.jpg)
 
-## Tecnologias
-<ul>
-    <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/" alt="JavaScript">JavaScript</a></li>
-    <li><a href="https://pt-br.reactjs.org/" alt="React">React</a></li>
-</ul>
+## Technologies
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [React](https://react.dev/)
+- [styled-components](https://styled-components.com/)
+- [react-dropzone](https://react-dropzone.js.org/) for drag and drop
+- [Axios](https://axios-http.com/) for the API requests
 
-## Uso
-**Deploy**:<br> 
-https://upload-frontend-app.herokuapp.com/
+## Usage
+**Back end:** [upload-de-arquivos-backend-node](https://github.com/leandro-srl/upload-de-arquivos-backend-node)
 
-**Backend da aplicação**:<br> 
-https://github.com/leandrolimadeveloper/upload-de-arquivos-backend-node<br>
-https://upload-backend-app.herokuapp.com/posts
+**Deploy:** deployed on Heroku in 2022 (offline since Heroku ended its free tier in November 2022).
